@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <link rel="stylesheet" href="style/acordion.css">
+    <title>Accordions</title>
+</head>
+<body>
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+        <p>Pokemon</p>
+    </div>
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+        <p>Fire Emblem</p>
+    </div>
+    <button class="accordion">Hello</button>
+    <div class="panel">
+        <p>Your Mom</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for(i = 0; i < acc.length; i++){
+            acc[i].addEventListener("click",function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if(panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
