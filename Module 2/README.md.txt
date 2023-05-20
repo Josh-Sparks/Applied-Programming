@@ -4,7 +4,7 @@ Just a quick test of how to work with apps. The app creates basic notes allowing
 
 In order to test it I simply go to the MIT APP Inventor enviroment, click connect, select AI Companion and connect my phone. Once it is working the way I want it on the AI Companion I build it as an apk and send it to my phone so I can 
 
-[Software Demo Video]()
+[Software Demo Video](https://www.youtube.com/watch?v=4Xk9s-1ABjU&t=3s)
 
 An api application
 
