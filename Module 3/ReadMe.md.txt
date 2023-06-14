@@ -4,7 +4,7 @@ I wanted to play around with class creation as well as animating thing in Java s
 
 I've been a bity rusty on class creation and animation so I went and did this really just to practice and refresh myself on how all of this works.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video] https://youtu.be/WWH7r-eFY48
 
 # Development Environment
 
