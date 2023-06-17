@@ -4,7 +4,7 @@ This is a cute and simple slime game. I mainly just made this to practice using 
 
 to play the game you simply press on the left and right arrow keys to jump then hit them again to move left or right while in the air. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=hmTDOyOcOmU)
 
 # Development Environment
 

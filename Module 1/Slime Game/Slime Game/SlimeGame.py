@@ -74,11 +74,13 @@ class Game(arcade.Window):
         """Called when you press a key """
         if key == arcade.key.LEFT or key == arcade.key.A:
             if self.physics_engine.can_jump():
+                self.jump_sound.play()
                 self.player_sprite.change_y = JUMP
             elif self.physics_engine.can_jump()==False:
                 self.player_sprite.change_x = -MOVMENT
         elif key == arcade.key.RIGHT or key == arcade.key.D:
             if self.physics_engine.can_jump():
+                self.jump_sound.play()
                 self.player_sprite.change_y = JUMP
             else:
                 self.player_sprite.change_x = MOVMENT
