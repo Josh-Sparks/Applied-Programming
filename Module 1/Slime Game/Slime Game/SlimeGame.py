@@ -15,7 +15,7 @@ TILE = 1.0
 #Player Constants
 GRAVITY = 1.0
 MOVMENT = 10
-JUMP = 20
+JUMP = 30
 
 class Game(arcade.Window):
     def __init__(self) -> None:
