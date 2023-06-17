@@ -13,7 +13,7 @@ CHARACTER_SCALE = 1.0
 TILE = 1.0
 
 #Player Constants
-GRAVITY = 1.0
+GRAVITY = 1
 MOVMENT = 10
 JUMP = 30
 
